@@ -1,0 +1,445 @@
+% ************************************************************************************************
+% This is the main project file for the LGBTPhys-Org Best Practices Guide
+%
+% ************************************************************************************************
+
+
+
+
+% This is the general class declaration the Thesis Class
+% vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	
+	\documentclass[12pt,twoside,openany,titlepage]{book}
+
+% ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+\title{Supporting LGBT+ \\Physicists \& Astronomers: \\Best Practices for Academic Departments}
+\author{LGBT+ Physicists \\
+\href{http://lgbtphysicists.org}{lgbtphysicists.org} \\ \\
+and\\ \\
+AAS Working Group on LGBTIQ Equality (WGLE) \\ 
+\href{http://lwgle.aas.org}{wgle.aas.org} \\ \\ v. 2.0}
+
+%\date{March 11, 2013}
+%\author{As of \today}
+%\date{}
+%\author{Timothy Atherton, Tufts University
+%        \and Ram\'{o}n Barthelemy, Western Michigan University
+%        \and Wouter Deconinck, College of William and Mary
+%        \and Elena Long, University of New Hampshire
+%        \and Diana Parno, University of Washington
+%        \and Michael Ramsey-Musolf, University of Wisconsin-Madison
+%        \and Elizabeth H. Simmons, Michigan State University}
+%\author{T. Atherton, R. Barthelemy, W. Deconinck, 
+%		\and E. Long, D. Parno, M. Ramsey-Musolf, E.H. Simmons}
+
+
+% Include Extra Packages Here
+% vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	% Use the Hypertex References package (if doing PDF)
+%	\usepackage{hyperref}
+
+	% This section sets up fancy formatting. Comment out to use plain formatting.
+%	\usepackage{draftwatermark}
+%	\SetWatermarkLightness{0.85}
+ %	\SetWatermarkScale{8}
+ 	
+			  
+	\usepackage{fancyhdr}
+	\usepackage[Bjarne]{fncychap}
+	\setlength{\headheight}{27.1pt}
+
+%	\usepackage[Lenny]{fncychap}
+%	\ChNumVar{\vspace*{-0.75in}\raggedleft \bfseries\Large} 
+%	\ChTitleVar{\vspace*{-0.75in}\raggedleft \Large\rm}
+%	\ChNameVar{\vspace*{-0.75in}\raggedleft\normalsize\rm}
+	
+	
+%	\ChNameVar{\vspace*{-0.75in}\Large}	
+	\usepackage{titlesec}
+%	\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
+%	\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+%	\titleformat{\section}{\large\bfseries}{\thesection}{1em}{\hrule}
+	\titleformat{\section}{\large\bfseries}{\thesection}{1em}{\hrule}
+		
+%	\setlength{\textwidth}{6.0in}
+	\renewcommand{\headrulewidth}{0.5pt}
+	\renewcommand{\footrulewidth}{0pt}
+	\pagestyle{fancy}
+%	\fancyhead[RE]{SECTION \thesection. \rightmark}
+%	\fancyhead[LO]{\rightmark}	
+	\fancyhead[LO]{\leftmark}
+	\fancyhead[RE]{\leftmark}
+	\fancyhead[LE,RO]{\thepage}
+	\fancyfoot[LC,RC]{}
+%	\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+%	\renewcommand{\chaptermark}[1]{%
+%		 \markboth{\MakeUppercase{%
+%		 \chaptername}\ \thechapter.%
+%	 \ #1}{}}
+
+
+	% The two lines below should include sub subsection numbers and in the TOC
+	\setcounter{secnumdepth}{0}
+	\setcounter{tocdepth}{1}
+	
+%	\setlength{\headheight}{15pt}
+%	\setlength{\footskip}{15pt}
+
+	% Use the Vpage package which creates the proper Page Layout (USletter, USlegal, etc...)
+	% see pages 88-89 of The LaTeX companion
+	%\usepackage{Vmargin}
+
+
+	% Use the doublespace package for linespacing
+%	\usepackage{style/doublespace} 
+
+	% Use both the AMS math and symbols packages for equations
+	\usepackage{amsmath}
+	\let\equation\gather
+	\let\endequation\endgather
+	\usepackage{amssymb}
+
+	% Set the font family to use for the thesis
+	\usepackage{ifthen}
+	% \usepackage{times,mathptmx}
+
+	% Use the standard Graphicx Package
+	% for graphics inclusion with the dvips driver
+%	\usepackage[dvips]{graphicx}
+%	\graphicspath{{.}{/thesis_bits/figures/}}	% look in this directory and the subdirectory called Figures
+
+	% Use the EPS figure package for including encapsulated postscript figures
+%	\usepackage{epsfig}
+	%\usepackage{psfig}
+	
+	% Use the standard Postscript Tricks package for graphics inclusion with the dvips driver
+	%\usepackage{pstricks,pst-node,pst-text} 	%comment this when compiling in laptop
+
+	% Use the PSFrag package for PS text replacement
+	\usepackage{psfrag}
+
+	% Use the TextCase package for special text caps
+	\usepackage{textcase}
+
+	% Use the Xspace package for proper spacing after macros
+	\usepackage{xspace}
+
+	% Use the Subfigure package to create arrays of figures
+	\usepackage{subfigure}
+
+	% Use the Calc package for integer opps
+	\usepackage{calc}
+
+	% Use the TabularX package to create special tables
+	\usepackage{tabularx}
+	
+	% Use the enumerate package for custom lists
+	\usepackage{enumerate}
+
+	% use the Dcolumn package to allow for aligned columns in tables
+	\usepackage{dcolumn}
+
+	% Use the MakeIndex Package to generate an index
+	\usepackage{makeidx}
+	\makeindex
+	
+	% Use the Afterpage Package to flush out unprocessed floats
+	\usepackage{afterpage}
+
+	% Set the Paper Size to Letter
+	%\setpapersize{USletter}
+
+	% Set Up the margins to use 
+	%\setmarginsrb{1in}{1in}{1in}{1in}{0pt}{10mm}{0pt}{5mm}
+	
+	%% Images with a different path to the parent latex file can
+	%% be accessed with the `import' package (which may need to be
+	%% installed) using
+	\usepackage{import}
+	
+	% This should help make it easy to put the number of pages in the
+	% abstract so I don't forget
+	\usepackage{lastpage}
+	
+	% This packages will allow captions to be put to the side, rather than under, figures
+	\usepackage{sidecap}
+	\sidecaptionvpos{figure}{c}
+	
+	%This package will allow text to be wrapped around a figure
+	\usepackage{wrapfig}
+	
+	% Hopefully this will let me use xcolor to help highlight tables
+%	\usepackage{xcolor}
+
+%	\usepackage{color}
+%	\usepackage{pstricks}
+
+	% Includes hyperlinks in *.pdf
+	\usepackage{hyperref}
+	\usepackage[all]{hypcap}
+	
+
+%	\usepackage{glossaries}
+
+	
+	% The two lines below add numbers to sub subsections
+%	\setcounter{secnumdepth}{3}
+%	\setcounter{tocdepth}{3}
+% ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+% Include your macro files here
+% vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	% This includes any redefinition of commands or environments
+	%\input{general_macros}						% Include the general macros
+	%\input{kaon_macros}						% Include Kaon decay macros
+
+
+	
+	
+	% If you are indexing include the \makeindex
+	% command here and run an index pass
+	%\makeindex								% Generate an index
+% ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+% Begin the Text of the Main Document
+% vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	\begin{document}							% Begin the document
+	%\input{Margin_Marks}						% Overlay the Margins for the Thesis 
+	\normalsize								% Return to Normal font size
+	\pagestyle{plain}
+	\frontmatter
+	\phantomsection
+	\maketitle
+%	\begin{spacing}{1.0}							% Single Space the Text
+%	\begin{spacing}{2.0}							% Double Space the Text
+	\input{bpg/titlepage	}						% Include the title page
+%	\input{bpg/abstract}							% Include the abstract
+
+	\newpage
+%	\setlength{\topmargin}{-0.1875 in}
+%	\setlength{\oddsidemargin}{0.4375 in} 
+%	\setlength{\evensidemargin}{0.0625 in}
+%	\setlength{\textheight}{8.5 in}
+%
+%	\ChTitleVar{\vspace{-0.75 in}\raggedleft \Large\rm}
+
+	\tableofcontents							% Make a table of contents
+%	\listoffigures								% Make a list of figures
+%	\addcontentsline{toc}{chapter}{List of Figures}
+%	\listoftables								% Make a list of tables
+%	\addcontentsline{toc}{chapter}{List of Tables}
+
+%	\newpage
+	\addcontentsline{toc}{chapter}{Glossary}
+	\input{bpg/glossary}					% Include the Glossary 
+
+	\mainmatter								% Reset the Numbering to Arabic 1
+	%\makehalftitle\thispagestyle{empty}			% Make the half page title
+	
+	
+%	\ChTitleVar{\vspace{0 in}\raggedleft \Large\rm}
+%	\setlength{\oddsidemargin}{0.5625 in} 
+%	\setlength{\evensidemargin}{-0.03125 in}
+%	\setlength{\topmargin}{0.375 in}
+%	\setlength{\textheight}{8.0 in}
+
+
+
+%\makeatletter
+%\renewcommand*{\@makechapterhead}[1]{%
+%  \vspace*{-0.50625 in}%
+%  {\parindent \z@ \raggedright \normalfont
+%    \ifnum \c@secnumdepth >\m@ne
+%      \if@mainmatter%%%%% Fix for frontmatter, mainmatter, and backmatter 040920
+%        \DOCH
+%      \fi
+%    \fi
+%    \interlinepenalty\@M
+%    \if@mainmatter%%%%% Fix for frontmatter, mainmatter, and backmatter 060424
+%      \DOTI{#1}%
+%    \else%
+%      \DOTIS{#1}%
+%    \fi
+%  }
+%  }
+% For the case \chapter*:
+%\renewcommand*{\@makeschapterhead}[1]{%
+%  \vspace*{5\p@}%
+%  {\parindent \z@ \raggedright
+%    \normalfont
+%    \interlinepenalty\@M
+%    \DOTIS{#1}
+%    \vskip 20\p@
+%  }}
+%\makeatother	
+
+	
+	
+	
+	% Include Chapters
+	% *********************************************************************
+%	\large
+	\pagestyle{fancy}
+%	\input{thesis_bits/test_page}		% Test Page full of Lorem Ipsum
+	\input{bpg/climate_today}			% Include Improving Climate Today 
+	\input{bpg/climate_tomorrow}			% Include Improving Climate Tomorrow
+	\input{bpg/personnel}				% Include Personnel Issues
+	\input{bpg/advocacy}					% Include University Advocacy 
+%	\input{bpg/resources}				% Include Resources
+
+
+
+\newpage
+
+
+%	\input{een-polarization-direction-definitions}
+
+%	\input{een-layout-with-text.pdf_tex}
+%	 \import{thesis_bits/Figures/}{een-layout-with-text.pdf_tex}
+	
+
+	% *********************************************************************
+
+%	\end{spacing}								% End of Main Thesis Text
+% ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+\newpage
+
+
+% Put Bibliographic information last
+% vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+%	\fancyhead[RE]{\rightmark}
+%	\fancyhead[LO]{\leftmark}	
+	\bibliographystyle{prsty}						% Indicate citation in Phys. Rev. Lett. style
+%	\fancyhead[LO]{\rightmark}
+	\fancyhead[LO]{\leftmark}	
+	\fancyhead[RE]{\leftmark}
+	\fancyhead[LE,RO]{\thepage}
+	\fancyfoot[LC,RC]{}
+	\pagestyle{fancy}
+	\newpage
+%	\setlength{\topmargin}{-0.1875 in}
+%	\setlength{\oddsidemargin}{0.4375 in} 
+%	\setlength{\evensidemargin}{0.0625 in}
+%	\setlength{\textheight}{8.5 in}
+
+%	\ChTitleVar{\vspace{-0.75 in}\raggedleft \Large\rm}
+
+%	\bibliography{thesis_bits/bibliography}			% Use the file ``bibliography.bib'' for the biblio
+%	\input{bibliography}
+	%\bibliographystyle{apalike}					% This uses (name, year) as the citation style
+	%\bibliographystyle{apsrev}					% Indicate the sort by citation order style
+% ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+% Include the appendicies here
+% vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	%\addcontentsline{toc}{chapter}{}
+	\appendix
+	\addcontentsline{toc}{chapter}{Appendices}
+%	\renewcommand{\chaptermark}[1]{%
+%		 \markboth{\MakeUppercase{%
+%		 APPENDIX} \thechapter.%
+%	 \ #1}{}}
+%	\pagestyle{fancy}
+	\fancyhead[LO]{APPENDIX \thechapter}
+	\fancyhead[RE]	{\leftmark}
+	\fancyhead[LE,RO]{\thepage}
+	\fancyfoot[LC,RC]{}
+%	\pagestyle{fancy}
+	\input{bpg/resources}				% Include Resources
+
+	\input{bpg/authors}					% Include the Author List 
+
+	%\input{glossary}
+	%\input{coordinate_system}
+	%\input{veto.tex}							% Appendix with veto test
+	% \input{efficiency}  
+%	\input{thesis_bits/collaboration.tex}				% Appendix with the collaboration info 
+%	\input{thesis_bits/form_factors.tex}				% Appendix with the veto bar info 
+%	\input{thesis_bits/veto_bars.tex}				% Appendix with the veto bar info 
+
+% ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+% Include the author's vita here
+% vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	%\vitaauthor{Elena Amanda Long}
+	%\begin{thesisauthorvita}
+	%\input{vita.tex}							% Include the vita
+	%\end{thesisauthorvita}
+% ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+
+
+
+
+% Include the University Microfiche Abstract here
+% vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	\fontsize{10}{12}\selectfont
+	%\begin{umiabstract}
+	%\input{umiabstract.tex}						% Include UMI abstract
+	%\end{umiabstract}
+	\normalsize
+% ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+% If you are indexing include the index format
+% vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+%	\begin{spacing}{1.0}
+	%\printindex								% Print the Index
+%	\end{spacing}
+% ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+\end{document}							% End the document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
