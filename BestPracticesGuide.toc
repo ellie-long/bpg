@@ -1,36 +1,42 @@
-\contentsline {chapter}{Glossary}{v}{chapter*.2}
+\contentsline {chapter}{Glossary}{vi}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Improving Departmental Climate Today}{1}{chapter.1}
-\contentsline {section}{* Include everyone in social events}{1}{section*.3}
-\contentsline {section}{* Use gender-neutral and inclusive language}{1}{section*.4}
-\contentsline {section}{* Invite LGBT+ speakers to campus}{2}{section*.5}
-\contentsline {section}{* Participate in surveys including LGBT+ experiences}{3}{section*.6}
-\contentsline {section}{* Join an Out List as an LGBT+ physicist or as an ally}{4}{section*.7}
-\contentsline {section}{Pay attention to course climate}{5}{section*.8}
-\contentsline {section}{Train faculty and TAs to be inclusive}{6}{section*.9}
-\contentsline {section}{Seek feedback on classroom climate}{7}{section*.10}
-\contentsline {section}{Talk about climate with advisees}{7}{section*.11}
-\contentsline {chapter}{\numberline {2}Improving Departmental Climate Tomorrow}{9}{chapter.2}
-\contentsline {section}{Increase visibility within the department}{9}{section*.12}
-\contentsline {section}{Create safe spaces within the department}{10}{section*.13}
-\contentsline {section}{Increase networking opportunities}{10}{section*.14}
-\contentsline {section}{Help department members find resources}{11}{section*.15}
-\contentsline {section}{Appoint a diversity liaison or committee}{12}{section*.16}
-\contentsline {section}{Allow name changes on departmental records}{13}{section*.17}
-\contentsline {section}{Recognize and award significant achievements}{13}{section*.18}
-\contentsline {section}{Include LGBT+ people in positions of power}{14}{section*.19}
-\contentsline {section}{Actively recruit LGBT+ students}{15}{section*.20}
-\contentsline {section}{Create opportunities for faculty and staff to receive diversity training}{15}{section*.21}
-\contentsline {chapter}{\numberline {3}Personnel Issues}{16}{chapter.3}
-\contentsline {section}{* Include non-discrimination statements in job announcements}{16}{section*.22}
-\contentsline {section}{* Avoid assumptions}{17}{section*.23}
-\contentsline {section}{* Be open to name changes for job and tenure applicants}{17}{section*.24}
-\contentsline {section}{Provide help for all dual-career couples}{18}{section*.25}
-\contentsline {chapter}{\numberline {4}Advocacy at the University Level}{20}{chapter.4}
-\contentsline {section}{Provide inclusive health insurance}{20}{section*.26}
-\contentsline {section}{Provide restroom accessibility}{21}{section*.27}
-\contentsline {section}{Appoint a contact person for dual-career couples}{22}{section*.28}
-\contentsline {section}{* Participate in surveys that include LGBT+ experiences}{22}{section*.29}
-\contentsline {section}{Use gender-neutral and inclusive language}{22}{section*.30}
-\contentsline {chapter}{Appendices}{24}{section*.30}
-\contentsline {chapter}{\numberline {A}Resources}{24}{appendix.A}
-\contentsline {chapter}{\numberline {B}Authors}{27}{appendix.B}
+\contentsline {section}{Include everyone in social events}{1}{section*.3}
+\contentsline {section}{Use gender-neutral and inclusive language}{1}{section*.4}
+\contentsline {section}{Do not tolerate offensive language}{2}{section*.5}
+\contentsline {section}{Invite LGBT+ speakers to campus}{3}{section*.6}
+\contentsline {section}{Pay attention to course climate}{4}{section*.7}
+\contentsline {section}{Discuss climate with faculty and TAs}{5}{section*.8}
+\contentsline {section}{Discuss climate with advisees}{6}{section*.9}
+\contentsline {section}{Understand departmental demographics}{7}{section*.10}
+\contentsline {section}{Participate in surveys exploring LGBT+ experiences}{8}{section*.11}
+\contentsline {section}{Join an Out List as an LGBT+ scientist or as an ally}{8}{section*.12}
+\contentsline {chapter}{\numberline {2}Improving Departmental Climate Tomorrow}{10}{chapter.2}
+\contentsline {section}{Increase LGBT+ visibility within the department}{10}{section*.13}
+\contentsline {section}{Create safe spaces within the department}{11}{section*.14}
+\contentsline {section}{Increase networking opportunities}{11}{section*.15}
+\contentsline {section}{Help department members find resources}{12}{section*.16}
+\contentsline {section}{Encourage faculty and staff to receive diversity training}{13}{section*.17}
+\contentsline {section}{Appoint a diversity liaison or committee}{13}{section*.18}
+\contentsline {section}{Recognize and award significant achievements}{14}{section*.19}
+\contentsline {section}{Include LGBT+ people in positions of power}{15}{section*.20}
+\contentsline {section}{Actively recruit LGBT+ students}{15}{section*.21}
+\contentsline {section}{Allow name changes on departmental records}{16}{section*.22}
+\contentsline {section}{Consider LGBT+ persons when developing family-friendly policies}{17}{section*.23}
+\contentsline {section}{Increase protections for postdocs}{17}{section*.24}
+\contentsline {section}{Keep people safe when traveling}{18}{section*.25}
+\contentsline {chapter}{\numberline {3}Recruitment and Personnel Issues}{19}{chapter.3}
+\contentsline {section}{Include non-discrimination statements in job announcements}{19}{section*.26}
+\contentsline {section}{Avoid assumptions}{20}{section*.27}
+\contentsline {section}{Be open to name changes for job and tenure applicants}{20}{section*.28}
+\contentsline {section}{Provide help for all dual-career couples}{21}{section*.29}
+\contentsline {chapter}{\numberline {4}Advocacy at the University Level}{23}{chapter.4}
+\contentsline {section}{Become an advocate}{23}{section*.30}
+\contentsline {section}{Use gender-neutral and inclusive language}{23}{section*.31}
+\contentsline {section}{Provide inclusive health insurance}{24}{section*.32}
+\contentsline {section}{Provide other benefits fairly}{25}{section*.33}
+\contentsline {section}{Provide restroom accessibility}{25}{section*.34}
+\contentsline {section}{Appoint a contact person for dual-career couples}{25}{section*.35}
+\contentsline {section}{Participate in surveys exploring LGBT+ experiences}{26}{section*.36}
+\contentsline {chapter}{Appendices}{27}{section*.36}
+\contentsline {chapter}{\numberline {A}Resources}{27}{appendix.A}
+\contentsline {chapter}{\numberline {B}Authors}{31}{appendix.B}
