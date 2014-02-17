@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 \contentsline {chapter}{Glossary}{vii}{chapter*.2}
+=======
+\contentsline {chapter}{Glossary}{vi}{chapter*.2}
+>>>>>>> 60d95d952bf9e6111a0047a0b5bd646825775559
 \contentsline {chapter}{\numberline {1}Improving Departmental Climate Today}{1}{chapter.1}
 \contentsline {section}{Include everyone in social events}{1}{section*.3}
 \contentsline {section}{Use gender-neutral and inclusive language}{1}{section*.4}
@@ -12,6 +16,7 @@
 \contentsline {section}{Join an Out List as an LGBT+ scientist or as an ally}{8}{section*.12}
 \contentsline {chapter}{\numberline {2}Improving Departmental Climate Tomorrow}{10}{chapter.2}
 \contentsline {section}{Increase LGBT+ visibility within the department}{10}{section*.13}
+<<<<<<< HEAD
 \contentsline {section}{Recognize and award significant achievements}{11}{section*.14}
 \contentsline {section}{Include LGBT+ people in positions of power}{11}{section*.15}
 \contentsline {section}{Encourage faculty and staff to obtain diversity training}{12}{section*.16}
@@ -21,6 +26,17 @@
 \contentsline {section}{Increase networking opportunities}{15}{section*.20}
 \contentsline {section}{Actively recruit LGBT+ students}{16}{section*.21}
 \contentsline {section}{Allow name and gender changes on departmental records}{16}{section*.22}
+=======
+\contentsline {section}{Create safe spaces within the department}{11}{section*.14}
+\contentsline {section}{Increase networking opportunities}{11}{section*.15}
+\contentsline {section}{Help department members find resources}{12}{section*.16}
+\contentsline {section}{Encourage faculty and staff to receive diversity training}{13}{section*.17}
+\contentsline {section}{Appoint a diversity liaison or committee}{13}{section*.18}
+\contentsline {section}{Recognize and award significant achievements}{14}{section*.19}
+\contentsline {section}{Include LGBT+ people in positions of power}{15}{section*.20}
+\contentsline {section}{Actively recruit LGBT+ students}{15}{section*.21}
+\contentsline {section}{Allow name changes on departmental records}{16}{section*.22}
+>>>>>>> 60d95d952bf9e6111a0047a0b5bd646825775559
 \contentsline {section}{Consider LGBT+ persons when developing family-friendly policies}{17}{section*.23}
 \contentsline {section}{Increase protections for postdocs}{17}{section*.24}
 \contentsline {section}{Keep people safe when traveling}{18}{section*.25}
@@ -32,6 +48,7 @@
 \contentsline {chapter}{\numberline {4}Advocacy at the University Level}{23}{chapter.4}
 \contentsline {section}{Become an advocate}{23}{section*.30}
 \contentsline {section}{Use gender-neutral and inclusive language}{23}{section*.31}
+<<<<<<< HEAD
 \contentsline {section}{Provide restroom accessibility}{24}{section*.32}
 \contentsline {section}{Identify your LGBT+ students}{24}{section*.33}
 \contentsline {section}{Help trans students deal with Selective Service}{25}{section*.34}
@@ -42,3 +59,13 @@
 \contentsline {chapter}{Appendices}{28}{section*.38}
 \contentsline {chapter}{\numberline {A}Resources}{28}{appendix.A}
 \contentsline {chapter}{\numberline {B}Authors}{32}{appendix.B}
+=======
+\contentsline {section}{Provide inclusive health insurance}{24}{section*.32}
+\contentsline {section}{Provide other benefits fairly}{25}{section*.33}
+\contentsline {section}{Provide restroom accessibility}{25}{section*.34}
+\contentsline {section}{Appoint a contact person for dual-career couples}{25}{section*.35}
+\contentsline {section}{Participate in surveys exploring LGBT+ experiences}{26}{section*.36}
+\contentsline {chapter}{Appendices}{27}{section*.36}
+\contentsline {chapter}{\numberline {A}Resources}{27}{appendix.A}
+\contentsline {chapter}{\numberline {B}Authors}{31}{appendix.B}
+>>>>>>> 60d95d952bf9e6111a0047a0b5bd646825775559
