@@ -14,11 +14,11 @@
 % ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 \title{Supporting LGBT+ \\Physicists \& Astronomers: \\Best Practices for Academic Departments}
-\author{LGBT+ Physicists \\
+\author{\includegraphics[scale=0.75]{lgbt+physicists_logo.pdf} \\
 \href{http://lgbtphysicists.org}{lgbtphysicists.org} \\ \\
 and\\ \\
-AAS Working Group on LGBTIQ Equality (WGLE) \\ 
-\href{http://lwgle.aas.org}{wgle.aas.org} \\ \\ v. 2.1}
+\includegraphics[scale=0.01]{WGLE_Logo.pdf}AAS Working Group on LGBTIQ Equality (WGLE) \\ 
+\href{http://wgle.aas.org}{wgle.aas.org} \\ \\ v. 2.1}
 
 %\date{March 11, 2013}
 %\author{As of \today}
@@ -169,6 +169,8 @@ AAS Working Group on LGBTIQ Equality (WGLE) \\
 	%This package will allow text to be wrapped around a figure
 	\usepackage{wrapfig}
 	
+	\usepackage{graphicx}
+	
 	% Hopefully this will let me use xcolor to help highlight tables
 %	\usepackage{xcolor}
 
@@ -179,7 +181,11 @@ AAS Working Group on LGBTIQ Equality (WGLE) \\
 	\usepackage{hyperref}
 	\usepackage[all]{hypcap}
 	
-
+	% Use \pdftooltip{new word}{definition} to include definitions in text
+	\usepackage{pdfcomment}	
+%	\newcommand{\tip}[2]{\pdftooltip{{\textbf{#1}}}{#2}}
+%	\newcommand{\tip}[2]{$1}
+	\newcommand{\link}[2]{\href{#1}{#2}}
 %	\usepackage{glossaries}
 
 	
@@ -219,10 +225,10 @@ AAS Working Group on LGBTIQ Equality (WGLE) \\
 	\maketitle
 %	\begin{spacing}{1.0}							% Single Space the Text
 %	\begin{spacing}{2.0}							% Double Space the Text
-	\input{bpg/titlepage	}						% Include the title page
+	\input{bpg/titlepage}						% Include the title page
 %	\input{bpg/abstract}							% Include the abstract
 
-	\newpage
+	%\newpage
 %	\setlength{\topmargin}{-0.1875 in}
 %	\setlength{\oddsidemargin}{0.4375 in} 
 %	\setlength{\evensidemargin}{0.0625 in}
@@ -236,11 +242,12 @@ AAS Working Group on LGBTIQ Equality (WGLE) \\
 %	\listoftables								% Make a list of tables
 %	\addcontentsline{toc}{chapter}{List of Tables}
 
-%	\newpage
+	\cleardoublepage
+	\phantomsection
 	\addcontentsline{toc}{chapter}{Glossary}
 	\input{bpg/glossary}					% Include the Glossary 
 
-	\mainmatter								% Reset the Numbering to Arabic 1
+	\mainmatter							% Reset the Numbering to Arabic 1
 	%\makehalftitle\thispagestyle{empty}			% Make the half page title
 	
 	
@@ -360,6 +367,9 @@ AAS Working Group on LGBTIQ Equality (WGLE) \\
 	\fancyhead[LE,RO]{\thepage}
 	\fancyfoot[LC,RC]{}
 %	\pagestyle{fancy}
+
+%	\input{bpg/glossary}					% Include Glossary
+	
 	\input{bpg/resources}				% Include Resources
 
 	\input{bpg/authors}					% Include the Author List 
